@@ -9,7 +9,6 @@
   <body>
     <header>
       <h1><a href="https://hcode.com.br/">Hcode</a></h1>
-      <nav></nav>
     </header>
 
     <section class="content-center">
@@ -19,10 +18,20 @@
         /></a>
       </div>
 
-      <form action="/login" method="post">
-        <input type="email" placeholder="Digite seu e-mail" required />
-        <input type="password" placeholder="Digite sua senha" required />
-        <button>Enviar</button>
+      <form id="form-login" action="/login" method="post">
+        <input
+          id="email"
+          type="email"
+          placeholder="Digite seu e-mail"
+          required
+        />
+        <input
+          id="password"
+          type="password"
+          placeholder="Digite sua senha"
+          required
+        />
+        <button id="btn-submit">Enviar</button>
       </form>
     </section>
 
