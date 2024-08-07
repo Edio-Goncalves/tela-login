@@ -4,7 +4,6 @@ document.getElementById("btn-submit").addEventListener("click", (e) => {
 
 document.querySelector("#form-login").addEventListener("submit", (e) => {
   e.preventDefault();
-  console.log("Os dados foram enviados.");
 
   let email = document.querySelector("#email").value;
   let password = document.querySelector("#password").value;
